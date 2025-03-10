@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .navbar {
+    @apply bg-gray-950 py-6 px-8;
+  }
+
+  .footer {
+    @apply bg-gray-950 py-4;
+  }
+}
+
